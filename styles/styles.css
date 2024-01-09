@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&family=Open+Sans:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;900&family=Open+Sans:wght@400;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+/* header section styles */
+.container{
+  width: 82%;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+header .banner {
+  background-image: linear-gradient(to bottom, rgb(15, 2, 26), rgba(255, 255, 255, 0)), url('../images/banner-image.png');
+  background-position: top center;
+  width: 100%;
+  background-size: cover;
+  border-radius: 16px;
+}
+.banner h3{
+  color: #FFF;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.banner p {
+  color: #FFF;
+  font-family: Merriweather;
+  font-size: 59px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 95px;
+}
+.banner-text {
+  max-width: 632px;
+  margin: 0 auto;
+  padding: 177px 0;
+  text-align: center;
+}
+
+/* holyday section styles */
+#holyday {
+  width: 50%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 120px 0px;
+}
+#holyday img{
+  width: 100%;
+}
+.holyday-text {
+ text-align: center;
+}
+.holyday-text h1 {
+  color: #F00;
+  text-align: center;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 48px;
+ }
+ .holyday-text p {
+  color: #F00;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-bottom: 16px;
+ }
+ .holyday-text h2 {
+  color: #070211;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 40px;
+ }
+
+/* welcome section styles */
+#welcome .banner {
+  background-image: linear-gradient(to right, rgb(15, 2, 26), rgba(255, 255, 255, 0)), url('../images/vector.png');
+  width: 100%;
+  min-height: 600px;
+  background-repeat: no-repeat;
+  color: white;
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#welcome .welcome-text h2 {
+  color: #FFF;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 88px; /* 137.5% */
+  letter-spacing: 7.04px;
+}
+#welcome .welcome-text p {
+  color: rgba(255, 255, 255, 0.80);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+#welcome .welcome-text {
+  max-width: 642px;
+  padding-left: 126px;
+}
+#welcome .welcome-text p {
+  min-width: 697px;
+}
+#welcome .year-image {
+  padding-right: 138px;
+}
+#welcome img {
+  width: 100%;
+}
